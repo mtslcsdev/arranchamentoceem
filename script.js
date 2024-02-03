@@ -15,3 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
         thankYouContainer.style.display = 'block';
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const thankYouContainer = document.getElementById('thank-you-container');
+
+    if (thankYouContainer) {
+        window.location.hash = '#thank-you-container';
+    }
+});

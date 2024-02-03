@@ -108,11 +108,16 @@ input[type="radio" i] {
 
 .hidden {
     display: none;
+    overflow: hidden;
 }
 
 #thank-you-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 50px;
+    overflow: hidden;
 }
 
 #thank-you-container h1, p {
