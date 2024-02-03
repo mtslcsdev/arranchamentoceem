@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <title>Arranchamento CEEM</title>
-</head>    
+</head>
 <body>
     <div class="box">
         <form action="">
@@ -19,13 +19,13 @@
                 </div>
                 <p>GRADUAÇÃO</p>
                 <input type="radio" id="cb" name="graduacao" value="CB" required>
-                <label for="cb">CB</label>
+                <label class="graduacao" for="cb">CB</label>
                 <br>
                 <input type="radio" id="sd_ep" name="graduacao" value="SD/EP" required>
-                <label for="sd_ep">SD/EP</label>
+                <label class="graduacao" for="sd_ep">SD/EP</label>
                 <br>
                 <input type="radio" id="sd_ev" name="graduacao" value="SD/EV" required>
-                <label for="sd_ev">SD/EV</label>
+                <label class="graduacao" for="sd_ev">SD/EV</label>
                 <br></br>
                 <div class="inputBox">
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
@@ -33,47 +33,51 @@
                 </div>
                 <br></br>
                 <div class="inputBox">
-                    <input type="tel" name="nome_guerra" id="nome_guerra" class="inputUser" required>
+                    <input type="text" name="nome_guerra" id="nome_guerra" class="inputUser" required>
                     <label for="nome_guerra" class="labelInput">NOME DE GUERRA</label>
                 </div>
                 <strong><p>SEGUNDA-FEIRA</p></strong>
-                <label><input type="checkbox" name="refeicoes[]" value="cafe"> Café</label>
+                <label><input type="checkbox" name="refeicoes[]" value="cafe"> CAFÉ</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="almoco"> Almoço</label>
+                <label><input type="checkbox" name="refeicoes[]" value="almoco"> ALMOÇO</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="janta"> Janta</label>
+                <label><input type="checkbox" name="refeicoes[]" value="janta"> JANTA</label>
                 <br></br>
                 <strong><p>TERÇA-FEIRA</p></strong>
-                <label><input type="checkbox" name="refeicoes[]" value="cafe"> Café</label>
+                <label><input type="checkbox" name="refeicoes[]" value="cafe"> CAFÉ</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="almoco"> Almoço</label>
+                <label><input type="checkbox" name="refeicoes[]" value="almoco"> ALMOÇO</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="janta"> Janta</label>
+                <label><input type="checkbox" name="refeicoes[]" value="janta"> JANTA</label>
                 <br></br>
                 <strong><p>QUARTA-FEIRA</p></strong>
-                <label><input type="checkbox" name="refeicoes[]" value="cafe"> Café</label>
+                <label><input type="checkbox" name="refeicoes[]" value="cafe"> CAFÉ</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="almoco"> Almoço</label>
+                <label><input type="checkbox" name="refeicoes[]" value="almoco"> ALMOÇO</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="janta"> Janta</label>
+                <label><input type="checkbox" name="refeicoes[]" value="janta"> JANTA</label>
                 <br></br>
                 <strong><p>QUINTA-FEIRA</p></strong>
-                <label><input type="checkbox" name="refeicoes[]" value="cafe"> Café</label>
+                <label><input type="checkbox" name="refeicoes[]" value="cafe"> CAFÉ</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="almoco"> Almoço</label>
+                <label><input type="checkbox" name="refeicoes[]" value="almoco"> ALMOÇO</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="janta"> Janta</label>
+                <label><input type="checkbox" name="refeicoes[]" value="janta"> JANTA</label>
                 <br></br>
                 <strong><p>SEXTA-FEIRA</p></strong>
-                <label><input type="checkbox" name="refeicoes[]" value="cafe"> Café</label>
+                <label><input type="checkbox" name="refeicoes[]" value="cafe"> CAFÉ</label>
                 <br>
-                <label><input type="checkbox" name="refeicoes[]" value="almoco"> Almoço</label>
-                <br>
-                <label><input type="checkbox" name="refeicoes[]" value="janta"> Janta</label>
+                <label><input type="checkbox" name="refeicoes[]" value="almoco"> ALMOÇO</label>
                 <br></br>
                 <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>
     </div>
+    <div id="thank-you-container" class="hidden">
+        <h1>Selva!</h1>
+        <p>CIA EQP a MELHOR!</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
